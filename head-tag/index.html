@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+  <HTML lang="en">
+  <HEAD>
+    <META CHARSET="UTF-8">
+    
+    <TITLE>An application with a long head</TITLE>
+    <LINK REL="STYLESHEET" HREF="default.css">
+    <LINK REL="STYLESHEET ALTERNATE" HREF="./big.css" TITLE="Big Text">
+    <BASE HREF="https://www.example.com/">
+    <link rel="author license" href="/about">
+    <SCRIPT SRC="support.js"></SCRIPT>
+    <!-- It will load both above css files, but it will not find support.js on html, bcz before loading we have applie
+    base href is www.example.com, and it will search for support in www.example.com/support.js . -->
+    <META NAME="APPLICATION-NAME" CONTENT="Long headed application">
+    
+  </HEAD>
+    <BODY>
+        <P>Hello to meta tag demo app.</P>   
+    </BODY>
+  </HTML>

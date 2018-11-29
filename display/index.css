@@ -1,0 +1,50 @@
+.block > div {
+    padding: 10px;
+    width: 70px;
+    background: red;
+    display: block; 
+}
+
+.inline > div {
+    padding: 10px;
+    width: 70px;
+    background: red;
+    display: inline; 
+}
+
+.inline-block > div {
+    padding: 10px;
+    width: 70px;
+    background: red;
+    display: inline-block; 
+}
+
+.div-equal-height > div {
+    display: inline-block;
+    border: solid;
+    width: 49%;
+}
+
+.row {
+    display: flex; /* equal height of the children */
+  }
+  
+  .col {
+    flex: 1; /* additionally, equal width */
+    
+    padding: 1em;
+    border: solid;
+  }
+
+  .container {
+    overflow: hidden;
+}
+.column {
+    float: left;
+    padding: 1em;
+    background-color: grey;
+    color: white;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    border: solid black;
+}

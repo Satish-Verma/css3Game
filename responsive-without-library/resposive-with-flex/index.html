@@ -1,0 +1,50 @@
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style >
+                .container {
+                    width: 100%;
+                    display: flex;
+                    flex-flow: row wrap;
+                }
+                .box {
+                    width: 150px;
+                    height: 100px;
+                }
+                
+                .dark-blue-box {
+                    background-color: darkblue;
+                }
+    
+                .light-blue-box {
+                    background-color: lightskyblue;
+                }
+
+                .orange-box {
+                    background-color: orange;
+                }
+    
+                .green-box {
+                    background-color: green;
+                }
+                .red-box {
+                    background-color: red;
+                }
+                
+            </style>
+    </head>
+    <body>
+        <h1>with flex: wrap and display: flex in container, we got responsive boxes.</h1>
+        <p>Note: You can apply align-content, align-items and justify-content at 930*520 resolution and see changes.</p>
+        <p>Note: This flex wrapping also depends on viewport meta tag.</p>
+        <div class="container">
+            <div class="box dark-blue-box"></div>
+            <div class="box light-blue-box"></div>
+            <div class="box green-box"></div>
+            <div class="box orange-box"></div>
+            <div class="box red-box"></div>
+        </div>
+        
+        
+    </body>
+</html>

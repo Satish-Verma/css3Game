@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <nav>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
+        <main  class="main">
+            <h1>display: block </h1>
+            <section class="block">
+                    <div>div 1</div>
+                    <div>div 2</div>
+                    <div>div 3</div>
+            </section>
+            <hr/>
+            <h1>display-: inline (will not apply given width and place all div in row with some gap)</h1>
+            <section class="inline">
+                    <div>div 1</div>
+                    <div>div 2</div>
+                    <div>div 3</div>
+            </section>
+            <br/><hr/>
+            <h1>display-: inline-block (will apply width and place all div in row with some gap) </h1>
+            <section class="inline-block">
+                    <div>div 1</div>
+                    <div>div 2</div>
+                    <div>div 3</div>
+            </section>
+            <hr/>
+            <h1>Two column in a row , one will less text other with more text, having same height.</h1>
+            <h2>Normal Scenario</h2>
+            <section class="div-equal-height">
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis quae expedita ipsum nobis praesentium velit animi minus amet perspiciatis laboriosam similique debitis iste ratione nemo ea at corporis aliquam. </div>
+            </section>
+            <br/>
+            <h2>Way1- Using flex</h2>
+            <section>
+                    <div class="row">
+                            <div class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                            <div class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis quae expedita ipsum nobis praesentium velit animi minus amet perspiciatis laboriosam similique debitis iste ratione nemo ea at corporis aliquam.
+                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis quae expedita ipsum nobis praesentium velit animi minus amet perspiciatis laboriosam similique debitis iste ratione nemo ea at corporis aliquam.                                
+                            </div>
+                     </div>
+            </section>
+            <br/>
+            <h2>Way2- Using Float</h2>
+            <section>
+                    <div class="container">
+                            <div class="column">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <div class="column">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis quae expedita ipsum nobis praesentium velit animi minus amet perspiciatis laboriosam similique debitis iste ratione nemo ea at corporis aliquam.
+                                    <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis quae expedita ipsum nobis praesentium velit animi minus amet perspiciatis laboriosam similique debitis iste ratione nemo ea at corporis aliquam.
+                            </div>
+                        
+                            
+                        
+                        </div>
+            </section>
+            <hr/>
+            <a target="_blank" href="http://www.google.com">www.google.com</a>
+        </main>
+    </body>
+</html>

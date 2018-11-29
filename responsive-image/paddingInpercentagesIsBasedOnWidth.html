@@ -1,0 +1,48 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <h1> When you give padding in % then it takes the width as consideration to make the height.</h1>
+
+        <h1>Use case: a background-image</h1>
+        <p>Perhaps we've made a typographic lockup. It's for the title of an article, so it makes sense to use an "h1" tag.</p>
+         <p>
+            1.  Here we are applying height in % and give padding-top, you will get width exactly equal to height. And it is responsive also.
+         </p>   
+         
+        <h2>
+                Happy Birthday
+        </h2>
+        <hr/>
+        <p> 2. Apply width in % and give padding-bottom, you will get height exactly equal to width. And it is responsive also.</p>
+        <h3>
+            Happy Birthday
+        </h3>
+        <hr>
+        <br><br>
+        <p>3. Use flex to fit the image</p>
+        
+        <style>
+            h2 {
+                overflow: hidden;
+                height: 0;
+                padding-top: 40%;
+                background: url(./images/ChartMap.jpg);
+                background-color: grey;
+                background-size: 100%;
+                background-repeat: no-repeat;
+             }
+             h3 {
+                width: 100%;
+                padding-bottom: 60%;
+                background: url(./images/ChartMap.jpg);
+                background-color: grey;
+                background-size: 100%;
+                background-repeat: no-repeat;
+             }
+            
+        </style>
+    </body>
+</html>
